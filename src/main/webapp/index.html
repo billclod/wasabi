@@ -8,15 +8,19 @@
 <script type="text/javascript" src="js/jquery/jquery-1.4.4.min.js"></script>
 <script type="text/javascript" src="js/easyui/jquery.easyui.min.js"></script>
 <script type="text/javascript" src="js/page/wasabi-index.js"></script>
-<title>super ui</title>
+<title>Wasabi Product</title>
 </head>
 <body class="easyui-layout">
     <div region="north" title="&nbsp;&nbsp;&nbsp;&nbsp;" border="false" style="height:60px;"><img src='img/wasabi.png'/><img src='img/copyright.png'/></div>
 	<div region="west" split="true" title="<img src='img/wasabi2.png'/>" style="width:200px;padding:10px;"><div id="ltree"></div></div>
 	<div region="east" split="true" title="&nbsp;&nbsp;" style="width:100px;padding:10px;">east region</div>
-	<div region="south" border="false" style="height:10px;padding:10px;"></div>
+	<div region="south" border="false" style="height:10px;padding:10px;overflow: hidden;"></div>
 	<div region="center">
 	   <div id="stabs"></div>
+	</div>
+	<!-- dialog div -->
+	<div id="dialog-div" style="width: 300px;height: 100px;display: none;">
+	   
 	</div>
 </body>
 </html>
